@@ -4,7 +4,7 @@ import random, time
 
 
 def program():
-    """یک تابع برای انجام کلی عملیاتهای ریاضی"""
+     
     n=5
     while n>0:
 
@@ -19,7 +19,7 @@ def program():
         based = Time2 - Time
 
         def remove_inx(input_value, index_to_keep):
-            """یک تابع برای بدست اوردن مقدار دقیق ثانیه های رد شده"""
+            
 
             input_value_str = str(input_value)
             result = "".join([input_value_str[i]
